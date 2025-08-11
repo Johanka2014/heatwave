@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.vocab-columns, .exercise-columns, .wrap-up-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.vocab-column, .exercise-column, .wrap-up-column {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e7e7e7;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.example {
+    font-style: italic;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #ccc;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 20px;
+}
+
+.reading-tasks, .comprehension-questions {
+    margin-top: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
